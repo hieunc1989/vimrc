@@ -58,7 +58,7 @@ let g:ale_sign_column_always = 1
 let g:lightline = {}
 
 let g:lightline = {
-      \ 'colorscheme': 'wombat',
+      \ 'colorscheme': 'Dracula',
       \ 'active': {
       \   'left': [
       \               [ 'mode', 'paste' ],
