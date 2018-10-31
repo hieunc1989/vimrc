@@ -19,3 +19,12 @@
 [submodule "pack/plugins/start/molokai"]
 	path = molokai
 	url = https://github.com/tomasr/molokai.git
+[submodule "pack/plugins/start/Dockerfile"]
+	path = pack/plugins/start/Dockerfile
+	url = https://github.com/ekalinin/Dockerfile.vim.git
+[submodule "pack/plugins/start/ansible"]
+	path = pack/plugins/start/ansible
+	url = https://github.com/erikzaadi/vim-ansible-yaml
+[submodule "pack/plugins/start/jinja2"]
+	path = pack/plugins/start/jinja2
+	url = https://github.com/Glench/Vim-Jinja2-Syntax.git

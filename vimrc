@@ -1,7 +1,7 @@
 color molokai
 
 set nu
-"set cursorline
+set cursorline
 
 set autoread
 set autowrite
@@ -39,6 +39,9 @@ set expandtab
 autocmd FileType python setlocal shiftwidth=4 tabstop=4 softtabstop=4
 autocmd FileType go setlocal noexpandtab shiftwidth=4 tabstop=4 softtabstop=4
 
+au BufNewFile,BufRead *.yaml set filetype=yaml.ansible
+au BufNewFile,BufRead *.yml set filetype=yaml.ansible
+
 let NERDTreeShowHidden=1
 let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp', '\.git', 'node_modules', 'venv', '-env', '__pycache__']
 let NERDTreeMinimalUI = 1
@@ -55,7 +58,7 @@ let g:ale_sign_column_always = 1
 let g:lightline = {}
 
 let g:lightline = {
-      \ 'colorscheme': 'Dracula',
+      \ 'colorscheme': 'wombat',
       \ 'active': {
       \   'left': [
       \               [ 'mode', 'paste' ],
